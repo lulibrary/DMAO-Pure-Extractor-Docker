@@ -1,5 +1,4 @@
-# DMAO-Pure-Extractor-Docker
-## dmaonline/pure-extractor
+# DMAO Pure Extractor Docker
 
 Docker image for DMA Online Pure extractor gem.
 
