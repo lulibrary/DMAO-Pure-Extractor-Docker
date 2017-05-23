@@ -18,6 +18,7 @@ The following environment variables can be set for configuring the pure extracti
 | PURE_API_URL | '' | [REQUIRED] Pure rest API url for puree |
 | PURE_USERNAME | '' | [OPTIONAL] Username for Pure rest API |
 | PURE_PASSWORD | '' | [OPTIONAL] Password for Pure rest API |
+| CHUNK_SIZE | 200 | [OPTIONAL] Size of chunks to get from Pure rest API |
 | OUTPUT_DIR | '/dmao-data' | [OPTIONAL] Directory to store output partial files in, default is fine with a volume bind or mount |
 | EXTRACT_AREA | 'organisation' | [OPTIONAL] Area to extract data for from puree options include: organisation, people, projects, publications, datasets |
 
