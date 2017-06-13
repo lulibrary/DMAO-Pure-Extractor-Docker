@@ -8,7 +8,7 @@ RUN mkdir -p $DATA_ROOT
 RUN mkdir -p $APP_ROOT
 WORKDIR $APP_ROOT
 
-RUN gem install pure-extractor -v 1.1.0
+RUN gem install pure-extractor -v 2.0.0
 
 COPY entrypoint.sh /entrypoint.sh
 
